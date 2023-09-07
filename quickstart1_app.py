@@ -5,9 +5,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 
-streamlit.title('Hey you')
+streamlit.title('Hey youu')
 
-# Setup for Storytelling (matplotlibb):
+# Setup for Storytelling (matplotlib):
 plt.rcParams['font.family'] = 'monospace'
 plt.rcParams['font.size'] = 8
 plt.rcParams['font.weight'] = 'bold'
