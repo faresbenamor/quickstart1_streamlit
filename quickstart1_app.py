@@ -7,7 +7,7 @@ import streamlit as st
 
 streamlit.title('Hey you')
 
-# Setup for Storytelling (matplotlib):
+# Setup for Storytelling (matplotlibb):
 plt.rcParams['font.family'] = 'monospace'
 plt.rcParams['font.size'] = 8
 plt.rcParams['font.weight'] = 'bold'
