@@ -1,8 +1,6 @@
 import matplotlib.pyplot as plt
 import streamlit as st
 
-st.title('Hello world')
-
 # Setup for Storytelling (matplotlib):
 plt.rcParams['font.family'] = 'monospace'
 plt.rcParams['font.size'] = 8
