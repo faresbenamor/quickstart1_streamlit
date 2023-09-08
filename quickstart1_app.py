@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import streamlit as st
 
-# Setup for Storytelling (matplotlibb):
+# Setup for Storytelling (matplotlib):
 plt.rcParams['font.family'] = 'monospace'
 plt.rcParams['font.size'] = 8
 plt.rcParams['font.weight'] = 'bold'
