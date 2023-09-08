@@ -1,11 +1,8 @@
-import streamlit
-import numpy as np
-import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 
-streamlit.title('Hey youuu')
+st.title('Hello world')
 
 # Setup for Storytelling (matplotlib):
 plt.rcParams['font.family'] = 'monospace'
