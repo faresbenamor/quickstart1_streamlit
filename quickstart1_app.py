@@ -1,23 +1,24 @@
-import matplotlib.pyplot as plt
+import matplotlib as plt
+from matplotlib import pyplot as pllt
 import streamlit as st
 
 # Setup for Storytelling (matplotlib):
-plt.rcParams['font.family'] = 'monospace'
-plt.rcParams['font.size'] = 8
-plt.rcParams['font.weight'] = 'bold'
-plt.rcParams['figure.facecolor'] = '#464545' 
-plt.rcParams['axes.facecolor'] = '#464545' 
-plt.rcParams['axes.titleweight'] = 'bold'
-plt.rcParams['axes.titlecolor'] = 'black'
-plt.rcParams['axes.titlesize'] = 9
-plt.rcParams['axes.labelcolor'] = 'darkgray'
-plt.rcParams['axes.labelweight'] = 'bold'
-plt.rcParams['axes.edgecolor'] = 'darkgray'
-plt.rcParams['axes.linewidth'] = 0.2
-plt.rcParams['ytick.color'] = 'darkgray'
-plt.rcParams['xtick.color'] = 'darkgray'
-plt.rcParams['axes.titlecolor'] = '#FFFFFF'
-plt.rcParams['axes.titlecolor'] = 'white'
-plt.rcParams['axes.edgecolor'] = 'darkgray'
-plt.rcParams['axes.linewidth'] = 0.85
-plt.rcParams['ytick.major.size'] = 0
+pllt.rcParams['font.family'] = 'monospace'
+pllt.rcParams['font.size'] = 8
+pllt.rcParams['font.weight'] = 'bold'
+pllt.rcParams['axes.titleweight'] = 'bold'
+pllt.rcParams['figure.facecolor'] = '#464545' 
+pllt.rcParams['axes.facecolor'] = '#464545' 
+pllt.rcParams['axes.titlecolor'] = 'black'
+pllt.rcParams['axes.titlesize'] = 9
+pllt.rcParams['axes.labelcolor'] = 'darkgray'
+pllt.rcParams['axes.labelweight'] = 'bold'
+pllt.rcParams['axes.edgecolor'] = 'darkgray'
+pllt.rcParams['axes.linewidth'] = 0.2
+pllt.rcParams['ytick.color'] = 'darkgray'
+pllt.rcParams['xtick.color'] = 'darkgray'
+pllt.rcParams['axes.titlecolor'] = '#FFFFFF'
+pllt.rcParams['axes.titlecolor'] = 'white'
+pllt.rcParams['axes.edgecolor'] = 'darkgray'
+pllt.rcParams['axes.linewidth'] = 0.85
+pllt.rcParams['ytick.major.size'] = 0
